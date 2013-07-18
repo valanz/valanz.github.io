@@ -33,10 +33,7 @@ header nav a {
 
 section#content {
 	background:url(../img/couleur-3.jpg) no-repeat center center fixed; 
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
+
 	padding:100px 20px;
 }
 
