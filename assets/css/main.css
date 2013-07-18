@@ -53,12 +53,19 @@ section#projects .work{
     column-break-inside:avoid;
 }
 
+section#projects .work h4{
+	margin:20px 10px 0 10px;
+	font-size:16px;
+	text-transform: uppercase;
+}
+
 section#projects .work p{
 	margin:10px;
 	line-height: 18px;
+	font-size: 12px;
 }
 
-section#projects .work img{
+section#projects .work img, .off-content img{
 	width:100%;
 }
 
@@ -71,4 +78,72 @@ section#projects .work img{
    -moz-column-gap:      20px;
    column-count:         4;
    column-gap:           20px;
+}
+
+
+@keyframes fromLeft
+{
+from {-webkit-transform: translateX(-12rem);
+  -ms-transform: translateX(-12rem);
+  -o-transform: translateX(-12rem);
+  transform: translateX(-12rem);}
+to {-webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);}
+}
+
+@-webkit-keyframes fromLeft /* Safari and Chrome */
+{
+from {-webkit-transform: translateX(-20rem);
+  -ms-transform: translateX(-20rem);
+  -o-transform: translateX(-20rem);
+  transform: translateX(-20rem);}
+to {-webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);}
+}
+
+@keyframes fromCenter
+{
+to {-webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);}
+to {-webkit-transform: translateX(-20rem);
+  -ms-transform: translateX(-20rem);
+  -o-transform: translateX(-20rem);
+  transform: translateX(-20rem);}
+}
+
+@-webkit-keyframes fromCenter /* Safari and Chrome */
+{
+to {-webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);}
+to {-webkit-transform: translateX(-20rem);
+  -ms-transform: translateX(-20rem);
+  -o-transform: translateX(-20rem);
+  transform: translateX(-20rem);}
+}
+
+
+
+.pusher {
+animation: fromLeft 0.5s;
+-webkit-animation: fromLeft 0.5s;
+position:absolute;
+background:white;
+width:500px;
+}
+
+.getPushed {
+	animation: fromCenter 0.5s;
+	-webkit-animation: fromCenter 0.5s;
+}
+
+.off-content h1, .off-content p {
+	margin:10px;
 }
