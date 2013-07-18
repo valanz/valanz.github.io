@@ -32,12 +32,39 @@ header nav a {
 }
 
 section#content {
-	background:url(../img/couleur-3.jpg) no-repeat top center fixed #b7d4e2; 
-
+	background:url(../img/couleur-3.jpg) no-repeat center -180px #b7d4e2; 
+	border:1px solid #f0f0f0;
+	margin-bottom:20px;
 	padding:100px 20px;
 }
 
 section#content p{
 	text-align: justify;
 	color:#231f20;
+}
+
+section#projects .work{
+	background:white;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	-webkit-column-break-inside:avoid;
+    -moz-column-break-inside:avoid;
+    -o-column-break-inside:avoid;
+    -ms-column-break-inside:avoid;
+    column-break-inside:avoid;
+}
+section#projects .work p{
+	margin:10px;
+	line-height: 18px;
+}
+
+.projects-column {
+   line-height: 0;
+   
+   -webkit-column-count: 4;
+   -webkit-column-gap:   20px;
+   -moz-column-count:    4;
+   -moz-column-gap:      20px;
+   column-count:         4;
+   column-gap:           20px;
 }
