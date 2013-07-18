@@ -4,7 +4,6 @@ body {
 
 header {
 	margin-bottom:30px;
-	/*background:purple;*/
 }
 
 header img {
@@ -34,7 +33,7 @@ header nav a {
 section#content {
 	background:url(../img/couleur-3.jpg) no-repeat center -180px #b7d4e2; 
 	border:1px solid #f0f0f0;
-	margin-bottom:20px;
+	margin-bottom:30px;
 	padding:100px 20px;
 }
 
@@ -45,7 +44,7 @@ section#content p{
 
 section#projects .work{
 	background:white;
-	margin-bottom:10px;
+	margin-bottom:20px;
 	padding-bottom:10px;
 	-webkit-column-break-inside:avoid;
     -moz-column-break-inside:avoid;
@@ -53,9 +52,14 @@ section#projects .work{
     -ms-column-break-inside:avoid;
     column-break-inside:avoid;
 }
+
 section#projects .work p{
 	margin:10px;
 	line-height: 18px;
+}
+
+section#projects .work img{
+	width:100%;
 }
 
 .projects-column {
