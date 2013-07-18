@@ -51,6 +51,7 @@ section#projects .work{
     -o-column-break-inside:avoid;
     -ms-column-break-inside:avoid;
     column-break-inside:avoid;
+    display: inline-block;
 }
 
 section#projects .work h4{
