@@ -52,6 +52,7 @@ section#projects .work{
     -ms-column-break-inside:avoid;
     column-break-inside:avoid;
     display: inline-block;
+    width:100%;
 }
 
 section#projects .work h4{
