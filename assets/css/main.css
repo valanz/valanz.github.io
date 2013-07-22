@@ -1,5 +1,15 @@
 body {
 	background:#e7e7e8;
+	margin-top:30px;
+}
+
+a {
+	color:#231f20;
+	text-weight:bold;
+}
+
+a:hover {
+	color:#231f20;
 }
 
 header {
@@ -61,10 +71,23 @@ section#projects .work h4{
 	text-transform: uppercase;
 }
 
+section#projects .work h5{
+	margin:10px 10px 0 10px;
+	padding-bottom: 10px;
+	font-size:12px;
+	color:#8f8f8f;
+	border-bottom: 1px solid #ededed;
+}
+
 section#projects .work p{
 	margin:10px;
 	line-height: 18px;
 	font-size: 12px;
+	text-align: justify;
+}
+
+section#projects .work p a{
+	cursor: pointer;
 }
 
 section#projects .work img, .off-content img{
@@ -148,4 +171,8 @@ width:500px;
 
 .off-content h1, .off-content p {
 	margin:10px;
+}
+
+footer hr {
+	border:1px solid #dadadc;
 }
