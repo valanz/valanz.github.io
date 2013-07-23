@@ -180,7 +180,7 @@ footer hr {
 	position:fixed;
     top: 50%;
     left: 50%;
-    margin-left:-50% 0 0 -50%;
+    margin:-50% 0 0 -50%;
     width: 50%;
     max-width: 630px;
     min-width: 320px;
