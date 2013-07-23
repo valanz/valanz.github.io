@@ -54,7 +54,7 @@ section#content p{
 
 section#projects .work{
 	background:white;
-	margin-bottom:20px;
+	margin-bottom:30px;
 	padding-bottom:10px;
 	-webkit-column-break-inside:avoid;
     -moz-column-break-inside:avoid;
@@ -96,13 +96,12 @@ section#projects .work img, .off-content img{
 
 .projects-column {
    line-height: 0;
-   
    -webkit-column-count: 4;
-   -webkit-column-gap:   20px;
+   -webkit-column-gap:   30px;
    -moz-column-count:    4;
-   -moz-column-gap:      20px;
+   -moz-column-gap:      30px;
    column-count:         4;
-   column-gap:           20px;
+   column-gap:           30px;
 }
 
 
