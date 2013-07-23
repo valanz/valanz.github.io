@@ -178,9 +178,9 @@ footer hr {
 
 .modal-container {
 	position:fixed;
-    top: 15%;
+    top: 50%;
     left: 50%;
-    margin-left:-25%;
+    right:50%;
     width: 50%;
     max-width: 630px;
     min-width: 320px;
@@ -188,6 +188,9 @@ footer hr {
     z-index: 2000;
     visibility: hidden;
     backface-visibility: hidden;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
 
