@@ -243,6 +243,9 @@ body .blurred {
 	filter: blur(6px) grayscale(100%);
 }
 
+.modal-right p{
+	text-align: justify;
+}
 
 .close-button {
 	width:auto;
@@ -251,6 +254,7 @@ body .blurred {
 	border-top:1px solid #ededed;
 	padding:10px 20px 0 20px;
 	text-align: center;
+	margin-top:50px;
 }
 
 footer a {
