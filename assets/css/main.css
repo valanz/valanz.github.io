@@ -101,6 +101,20 @@ section#projects .work img, .off-content img{
    column-gap:           30px;
 }
 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+.projects-column {
+   line-height: 0;
+   -webkit-column-count: 2;
+   -webkit-column-gap:   30px;
+   -moz-column-count:    2;
+   -moz-column-gap:      30px;
+   column-count:         2;
+   column-gap:           30px;
+}
+}
+
 
 @keyframes fromLeft
 {
