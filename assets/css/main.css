@@ -6,6 +6,7 @@ body {
 a {
 	color:#231f20;
 	text-weight:bold;
+	cursor:pointer;
 }
 
 a:hover {
@@ -84,10 +85,6 @@ section#projects .work p{
 	line-height: 18px;
 	font-size: 12px;
 	text-align: justify;
-}
-
-section#projects .work p a{
-	cursor: pointer;
 }
 
 section#projects .work img, .off-content img{
@@ -180,7 +177,6 @@ footer hr {
 	position:fixed;
     top: 50%;
     left: 50%;
-    right:50%;
     width: 50%;
     max-width: 630px;
     min-width: 320px;
@@ -193,6 +189,18 @@ footer hr {
 	-ms-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
+
+.modal-container h1 {
+	font-size: 18px;
+}
+
+.modal-container h5{
+	padding-bottom: 10px;
+	font-size:12px;
+	color:#8f8f8f;
+	border-bottom: 1px solid #ededed;
+}
+
 
 .modal-visible {
 	visibility: visible;
@@ -233,4 +241,19 @@ body .blurred {
     -webkit-filter: blur(6px) grayscale(100%);
 	-moz-filter: blur(6px) grayscale(100%);
 	filter: blur(6px) grayscale(100%);
+}
+
+
+.close-button {
+	width:auto;
+	position: relative;
+	bottom:0;
+	top:130px;
+	border-top:1px solid #ededed;
+	padding:10px 20px 0 20px;
+	text-align: center;
+}
+
+footer a {
+	text-decoration: underline;
 }
