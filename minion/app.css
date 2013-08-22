@@ -148,7 +148,8 @@ body {
 	transform: rotate(-90deg);
 	-webkit-transform-origin:right top;
 	-webkit-transform: rotate(-90deg);
-	-webkit-transform-origin:right top;
+	-moz-transform-origin:right top;
+	-moz-transform: rotate(-90deg);
 	left:-50px;
 }
 
@@ -161,7 +162,8 @@ body {
 	transform: rotate(-110deg);
 	-webkit-transform-origin:right top;
 	-webkit-transform: rotate(-110deg);
-	-webkit-transform-origin:right top;
+	-moz-transform-origin:right top;
+	-moz-transform: rotate(-110deg);
 	left:-120px;
 	top:12px;
 }
@@ -175,7 +177,8 @@ body {
 	transform: rotate(-105deg);
 	-webkit-transform-origin:right top;
 	-webkit-transform: rotate(-105deg);
-	-webkit-transform-origin:right top;
+	-moz-transform-origin:right top;
+	-moz-transform: rotate(-105deg);
 	left:-120px;
 	top:6px;
 }
@@ -190,7 +193,8 @@ body {
 	transform: rotate(-100deg);
 	-webkit-transform-origin:right top;
 	-webkit-transform: rotate(-100deg);
-	-webkit-transform-origin:right top;
+	-moz-transform-origin:right top;
+	-moz-transform: rotate(-100deg);
 	left:-168px;
 	top:0;
 }
@@ -204,7 +208,8 @@ body {
 	transform: rotate(-96deg);
 	-webkit-transform-origin:right top;
 	-webkit-transform: rotate(-96deg);
-	-webkit-transform-origin:right top;
+	-moz-transform-origin:right top;
+	-moz-transform: rotate(-96deg);
 	left:-168px;
 	top:-6px;
 }

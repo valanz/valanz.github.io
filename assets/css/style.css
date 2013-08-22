@@ -103,3 +103,8 @@ section#myself {
 #project {
 	margin-top:40px;
 }
+
+#project a {
+	color:#1487ab;
+	font-weight: bold;
+}
