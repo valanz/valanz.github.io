@@ -85,7 +85,7 @@ section#myself {
 }
 
 #about button.download {
-	margin-top:35px;
+	margin-top:15px;
 	width:100%;
 	background:#53abe3;
 	border:0;
@@ -93,4 +93,12 @@ section#myself {
 	border-radius:10px;
 	color:white;
 	text-transform:uppercase;
+}
+
+#about .CV {
+	margin-top:50px;
+}
+
+#project {
+	margin-top:40px;
 }
