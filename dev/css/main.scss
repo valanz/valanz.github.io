@@ -28,13 +28,16 @@ body {
    -moz-column-gap:      0px;
    column-count:         5;
    column-gap:           0px;
+
+
+  overflow:hidden;
    
 	img {
 	  width: 100% !important;
 	  height: auto !important;
 	  padding:10px;
+    display:block;
 	}
-
 }
 
 ul {
